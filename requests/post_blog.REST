@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlRlc3RpIiwiaWQiOiI1YzZiMTAyMTA3ZTg5YTEyNzYyYjQxMDIiLCJpYXQiOjE1NTA1MjM2NzN9.W3y94qYjh2lQ8KjdoA5KjuNklkDb0yrn3d9xo0HeE9M
+
+{
+    "title": "Arttu testaa",
+    "author": "Arttu",
+    "url": "oiuoiu",
+    "likes": "0",
+    "user":"5c6b102107e89a12762b4102"
+}
